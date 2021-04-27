@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-width: 560px){
+.middle{
+    width: 99%;
+}
+
+.pos_ab{
+	left:1%
+}
+
+.banner_title{
+	width:60%;
+	left:10%;
+}
+
+.deadline, .deadline2{
+	display:none
+}
+
+.switch{
+	display:inline
+}
+
+.title_footer i{
+	line-height:34px
+}
+
+.hr{
+	margin-top:-62px
+}
+
+.footer_info > li{
+	float:inherit
+}
+
+.title2 p{
+	color:#d68538	
+}
+
+.menu_list{
+	display:none
+}
+
+.content_detail{
+ width:100%;
+ max-width:100%
+}
+}
+
+@media screen and (max-width: 997px){
+.sponsorblank{
+ display:none
+}
+}
+
+@media screen and (min-width: 561px) and (max-width: 768px){
+.middle{
+    width: 99%;
+}
+
+.pos_ab{
+	left:1%
+}
+
+.banner_title{
+	width:60%;
+	left:10%;
+}
+
+.deadline, .deadline2{
+	display:none
+}
+
+
+.deadline_top{
+	display:block
+}
+
+.switch{
+	display:inline
+}
+
+.title_footer i{
+	line-height:34px
+}
+
+.hr{
+	margin-top:-62px
+}
+
+.menu_list{
+	display:none
+}
+
+.content_detail{
+ width:100%;
+ max-width:100%
+}
+}
+
+@media screen and (min-width: 768px){
+.middle{
+    width: 97%;
+}
+
+.pos_ab{
+	margin-left:-48.5%;	
+}
+
+.banner_title{
+	width:60%;
+	left:10%;
+}
+
+.day{
+	display:inline;
+}
+
+.day i.number{
+	font-size:30px;
+	margin:0 0 0 10px
+}
+}
+
+@media only screen and (min-width: 1200px){
+.middle{
+    width: 1140px;
+}
+
+.pos_ab{
+	margin-left:-570px;	
+}
+
+.banner_title{
+	width:826px;
+	left:0;
+	margin-left:0
+}
+
+.deadline{
+	display:none
+}
+
+.day{
+	display:inline;	
+}
+
+.day i.number{
+	font-size:36px;
+	margin:0 0 0 10px
+}
+}
+
+@media only screen and (max-width: 1588px){
+.deadline{
+	display:none
+}	
+}
+
+@media screen and (min-width: 1590px) and (max-width: 1920px){
+.deadline{
+	display:block
+}	
+}
+
+@media only screen and (min-width: 1920px){
+.banner_img{
+	max-width:1920px;
+}
+
+.deadline{
+	position:absolute;
+	bottom:9.9%;
+	font-size:22px;
+	color:#6269f8;
+	font-weight:bold;
+	letter-spacing:2px;
+	left:0;
+	display:block
+}
+
+.day{
+	display:block
+}
+
+.day i.number{
+	font-size:44px;
+	color:#fff;
+	line-height:60px;
+	letter-spacing:0;
+	margin:10px 0 0 0
+}
+
+.day i{
+	font-size:22px;
+	font-style:normal;
+	margin-left:10px
+}
+}
+
+@media screen and (max-width: 1080px){
+.navigation{
+	display:none
+}
+
+.sp_header{
+	display:block;
+}
+
+.deadline_top{
+        display:block
+}
+}
+
+@media screen and (max-width: 1020px){
+.introduction_l,.introduction_r{
+	width:100%
+}
+
+.introduction_r{
+	margin:40px 0 0 0
+}
+}
+
+@media screen and (max-width: 1140px){
+.contack{
+	float:left;
+	margin:0 30px 20px 0
+}
+
+.footer_info{
+	width:100%
+}
+
+.clear2{
+	display:block
+}
+}
+
+@media screen and (max-width: 1248px){
+.shadow_l{display:none}
+.shadow_r{display:none}
+}
