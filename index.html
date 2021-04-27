@@ -292,40 +292,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="System-environment-configuration"><a href="#System-environment-configuration" class="headerlink" title="System environment configuration"></a>System environment configuration</h2><p>To use Hexo, you need to support Nodejs and Git on your system. If you haven’t already, start installing!</p>
-<h3 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h3><p>Download: <a href="https://nodejs.org/download/" target="_blank" rel="noopener">Node.js</a><br>Reference address: <a href="http://www.w3cschool.cc/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">Install Node.js</a></p>
-<h3 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git"></a>Install Git</h3><p>Download <a href="http://git-scm.com/download/" target="_blank" rel="noopener">Git</a></p>
-<h3 id="install-Hexo"><a href="#install-Hexo" class="headerlink" title="install Hexo"></a>install Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> d:/hexo</span><br><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g <span class="comment"># or hexo generate</span></span><br><span class="line">$ hexo s <span class="comment"># or hexo server，you can browse http://localhost:4000/</span></span><br></pre></td></tr></table></figure>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h3 id="Common-shorthand"><a href="#Common-shorthand" class="headerlink" title="Common shorthand"></a>Common shorthand</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n == hexo new</span><br><span class="line">$ hexo g == hexo generate</span><br><span class="line">$ hexo s == hexo server</span><br><span class="line">$ hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
-<h3 id="Common-combination"><a href="#Common-combination" class="headerlink" title="Common combination"></a>Common combination</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g </span><br><span class="line">$ hexo s -g</span><br></pre></td></tr></table></figure>
-<p>Now we can open <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> and you can see a built-in blog.</p>
-<p>The local environment I am currently installing is as follows: (can be viewed by hexo -v)</p>
-<h2 id="Hexo-theme-settings"><a href="#Hexo-theme-settings" class="headerlink" title="Hexo theme settings"></a>Hexo theme settings</h2><p>Here, the topic yilia is taken as an example for explanation.</p>
-<p>install theme</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
-<p>Enable theme<br>Modify the theme attribute in the _config.yml configuration file in the Hexo directory and set it to yilia.</p>
-<p>Update theme</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/yilia</span><br><span class="line">$ git pull</span><br><span class="line">$ hexo g <span class="comment"># build</span></span><br><span class="line">$ hexo s <span class="comment"># run local web server</span></span><br></pre></td></tr></table></figure>
-<p>Now open <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> and you will see that we have applied a new theme.</p>
-
-      
-
-      
     </div>
     <div class="article-info article-info-index">
-      
-      
-      
-
       
         <p class="article-more-link">
           <a class="article-more-a" href="/autumn.github.io/2019/03/05/postName/">展开全文 >></a>
@@ -420,40 +388,7 @@
 <p>在你悲伤一刻必须解慰找到我乐趣</p>
 <p>我甘于当副车 也是快乐着唏嘘</p>
 <p>彼此这么了解</p>
-<p>难怪注定似兄妹一对</p>
-<p>其实我怕你的好感基于我修养</p>
-<p>其实最怕你的私心亏准我体谅</p>
-<p>无人问我寂寞像投何处去养伤</p>
-<p>原来是我的心境高到变为 偶像</p>
-<p>谁情愿照耀着别人就如 月亮</p>
-<p>为奴婢为你备饭奉茶是残忍真相</p>
-<p>无奈被你识穿这个念头</p>
-<p>得到好处的你</p>
-<p>明示不想失去绝世好友</p>
-<p>没有得你的允许 我都会爱下去</p>
-<p>互相祝福心软之际或者准我吻下去</p>
-<p>我痛恨成熟到 不要你望着我流泪</p>
-<p>但漂亮笑下去 仿佛冬天饮雪水</p>
-<p>被你一贯的赞许 却不配爱下去</p>
-<p>在你悲伤一刻必须解慰找到我乐趣</p>
-<p>我甘于当副车 也是快乐着唏嘘</p>
-<p>彼此这么了解</p>
-<p>让我决定我的快乐</p>
-<p>哪须得你的允许 我都会爱下去</p>
-<p>互相祝福心软之际或者准我吻下去</p>
-<p>我痛恨成熟到 不要你望着我流泪</p>
-<p>但漂亮笑下去 仿佛冬天饮雪水</p>
-<p>被你一贯的赞许 无须装说下去</p>
-<p>在你悲伤一刻必须解慰找到我乐趣</p>
-<p>我甘于当副车 却没法撞入堡垒</p>
-<p>彼此这么了解 难怪注定似兄妹一对</p>
-<p>你的他怎允许 结伴观赏雪的泪</p>
-<p>永不开封的汽水 让我抱在怀内吻下去</p>
-<h2 id="歌曲鉴赏"><a href="#歌曲鉴赏" class="headerlink" title="歌曲鉴赏"></a>歌曲鉴赏</h2><p>  《钟无艳》由林夕填词、Christopher Chak（泽日生）作曲、陈珀编曲、Alvin Leong（梁荣骏）监制，旋律凄美动人，钢琴及弦乐的配合，加上Kay的声线，数说钟无艳得不到爱的无奈；唱出了女生爱上了死党男性朋友却说不出口的矛盾心情。《钟无艳》是林夕为Kay的回归作出的落力打造，“我甘于当副车却没法撞入堡垒”，永远做好朋友的角色，又一个只能当兄妹的感情故事。钟无艳歌式与轻松的第一主打八分三截然不同，Kay令人感动的声线于锺无艳中表露无遗，感情拿掐准确，随旋律层层推进，高音部分表现自如，让大家再一次感受谢安琪靓声的实力。<br>  《钟无艳》所描画的是那种一厢情愿地去爱一个人的故事。从编曲上“钟无艳”更能轻易地将聆听中带入到歌词的意境里面，此曲的那个带着几分玩味气质的名字，应该是可以满足到时下乐迷的新鲜感，加上贴近歌词所描画的情绪和剧情，很能让人想到那位因为样貌而有过崎岖情路的历史人物—钟无艳。</p>
-
-      
-
-      
+  
     </div>
     <div class="article-info article-info-index">
       
