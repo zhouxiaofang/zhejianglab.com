@@ -733,11 +733,11 @@ a:visited{text-decoration:none}
 
 .copyright{
 	width:100%;
-	background:#380d5d url(../images/copyright_bk.png) center repeat-y;
+	background:#20904e url(../images/copyright_bk.png) center repeat-y;
 	position:absolute;
 	bottom:0;
 	height:72px;
-	color:#8e6899;
+	color:#fff;
 	text-align:center;
 	line-height:72px
 }
