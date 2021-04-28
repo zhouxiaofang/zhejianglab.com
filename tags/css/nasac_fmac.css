@@ -374,7 +374,7 @@ a:visited{text-decoration:none}
 	left:0;
 	top:0;
 	background-color:#24a057;
-	background-color:rgb(177 239 187 / 30%);
+	background-color:rgba(34, 179, 77, 0.3);
 }
 
 .link_btn a.btn_l:hover{
@@ -863,7 +863,7 @@ a:visited{text-decoration:none}
 .menu ul.menu_list li a:hover, .menu ul.menu_list li a.menu_current{
 	font-size:17px;
 	font-weight:bold;
-	color:#260070;
+	color:#24a056;
 }
 
 .menu ul.menu_list li a:hover i,  .menu ul.menu_list li a.menu_current i{
@@ -898,7 +898,7 @@ a:visited{text-decoration:none}
 
 .location i{
 	font-style:normal;
-	color:#260070;
+	color:#24a056;
 	font-weight:bold
 }
 
@@ -938,7 +938,7 @@ a:visited{text-decoration:none}
 	display:block;
 	cursor:pointer;
 	font-size:16px;
-	color:#260070;
+	color:#24a056;
 	font-weight:bold;
 	padding:14px 0;
 	letter-spacing:1px;
@@ -947,7 +947,7 @@ a:visited{text-decoration:none}
 }
 
 .title_list li a:hover{
-	background-color:#260070;
+	background-color:#24a056;
 	border-left:4px solid #e84f2f;
 	color:#fff;
 	text-indent:20px;
@@ -962,9 +962,9 @@ a:visited{text-decoration:none}
 }
 
 .content .pb_sys_style1 .p_no_d{
-    border: 1px solid #260070;
+    border: 1px solid #24a056;
     color: #fff;
-    background-color: #260070;
+    background-color: #24a056;
 }
 
 .chengban{
