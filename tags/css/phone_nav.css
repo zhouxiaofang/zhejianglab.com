@@ -20,7 +20,7 @@
 .sjj_nav ul li ul{display:none;margin-left:20px}
 .sjj_nav ul li a{color:#fff;width:80%;text-indent:20px}
 .sjj_nav ul li ul li{border-top:1px solid #555}
-.sjj_nav ul li ul li a{color:#8ba4f7;display:block;text-align:left;height:40px;line-height:40px;position:relative; z-index:1000}
+.sjj_nav ul li ul li a{color:#22e23a;display:block;text-align:left;height:40px;line-height:40px;position:relative; z-index:1000}
 .sjj_nav ul li i svg{width:20px;height:20px;fill:#555;}
 .sjj_nav ul li .sjj_nav_i_se svg{fill:#c9141e}
 .sjj_nav ul li ul li>ul{margin-left:10px}
