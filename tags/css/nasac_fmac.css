@@ -644,7 +644,7 @@ a:visited{text-decoration:none}
 .title_footer i{
 	font-style:normal;
 	font-weight:bold;
-	color:#24006d;
+	color:#24a056;
 	font-size:18px;
 	text-shadow:1px 1px 0 #9c9ba3;
 	vertical-align:bottom;
@@ -665,14 +665,14 @@ a:visited{text-decoration:none}
 	position:absolute;
 	width:150px;
 	height:5px;
-	background-color:#24006d;
+	background-color:#24a056;
 	top:-2px;
 	left:0
 }
 
 .footer_info{
 	margin-top:50px;
-	color:#24006d;
+	color:#24a056;
 	font-size:16px;
 	line-height:36px;
 	text-shadow:1px 0 0 #8f8cac
@@ -684,7 +684,7 @@ a:visited{text-decoration:none}
 }
 
 .footer_info   li.info_title {
-	color:#24006d;
+	color:#24a056;
 	text-shadow:1px 1px 0 #7e7b94;
 	font-weight:bold;
 	margin-bottom:0px;
