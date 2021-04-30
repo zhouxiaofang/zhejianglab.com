@@ -197,7 +197,7 @@ a:visited{text-decoration:none}
 .deadline_top{
 	position:absolute;
 	font-size:16px;
-	color:#6269f8;
+	color:#24a056;
 	font-weight:bold;
 	right:15%;
 	top:30px;
@@ -775,7 +775,7 @@ a:visited{text-decoration:none}
 .deadline2{
 	font-size:22px;
 	font-weight:bold;
-	color:#6269f8;
+	color:#24a056;
 	margin-top:60px
 }
 
