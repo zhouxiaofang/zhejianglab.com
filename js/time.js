@@ -8,7 +8,7 @@
         function show(){
             var d1 = new Date();//获取到当前的时间
             var d1Ms = d1.getTime();
-            var d2 = new Date(2021,10,20,8);//预计开始的时间 2021 11 20 08:00
+            var d2 = new Date(2021,8,20,8);//预计开始的时间 2021 8 20 08:00
             var d2Ms = d2.getTime();
             var differMs = d2Ms-d1Ms;//相差的毫秒数
             var date = parseInt(differMs/(3600*24*1000));//相差天数
