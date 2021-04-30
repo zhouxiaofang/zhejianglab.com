@@ -129,7 +129,7 @@ a:visited{text-decoration:none}
 }
 
 .nav_list li a:hover{
-	background-color:#5830c4;
+	background-color:#24a056;
 	color:#fff;
 	text-indent:2px
 }
@@ -987,7 +987,7 @@ a:visited{text-decoration:none}
 }
 
 .content .meetingplan p a:hover{
-   background-color:#5830c4;
+   background-color:#24a056;
    cursor:pointer;
    color:#fff;
    text-decoration:none
@@ -1012,7 +1012,7 @@ a:visited{text-decoration:none}
 }
 
 .content p a:hover{
-  color:#5830c4;
+  color:#24a056;
   font-weight:bold
 }
 
