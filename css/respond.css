@@ -166,10 +166,10 @@
 }	
 }
 
-@media only screen and (min-width: 1920px){
+/* @media only screen and (min-width: 1920px){
 .banner_img{
 	max-width:1920px;
-}
+} */
 
 .deadline{
 	position:absolute;
