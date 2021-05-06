@@ -13,7 +13,7 @@
 
 .banner_title{
 	width:60%;
-	left:10%;
+	/* left:10%; */
 }
 
 .deadline, .deadline2{
@@ -67,7 +67,7 @@
 
 .banner_title{
 	width:60%;
-	left:10%;
+	/* left:10%; */
 }
 
 .deadline, .deadline2{
@@ -112,7 +112,7 @@
 
 .banner_title{
 	width:60%;
-	left:10%;
+	/* left:10%; */
 }
 
 .day{
@@ -135,7 +135,8 @@
 }
 
 .banner_title{
-	width:826px;
+	/* width:826px; */
+	width:1506px;
 	left:0;
 	margin-left:0
 }
