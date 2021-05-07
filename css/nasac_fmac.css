@@ -675,7 +675,7 @@ a:visited{text-decoration:none}
 	color:#24a056;
 	font-size:16px;
 	line-height:36px;
-	text-shadow:1px 0 0 #8f8cac
+	text-shadow:1px 0 0 #24a056
 }
 
 .footer_info > li{
@@ -685,7 +685,7 @@ a:visited{text-decoration:none}
 
 .footer_info   li.info_title {
 	color:#24a056;
-	text-shadow:1px 1px 0 #7e7b94;
+	text-shadow:1px 1px 0 #24a056;
 	font-weight:bold;
 	margin-bottom:0px;
 	line-height:16px;
@@ -1053,6 +1053,10 @@ a:visited{text-decoration:none}
 .chengban{
 	width:580px;
 	margin-left: 25%;	
+}
+
+ul.chengban a {
+    float: left;
 }
 
 .chengban li{
