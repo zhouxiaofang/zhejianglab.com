@@ -551,6 +551,10 @@ a:visited{text-decoration:none}
       background-color:#aaa;
 }
 
+.sponsor_lists li.sponsor_lists_gold.sponsor_lists_diamond{
+	background-color:#ecb1cd;
+}
+
 .sponsor_lists li.sponsor_lists_gold p{
       width:120px;
       height:30px;
@@ -568,6 +572,10 @@ a:visited{text-decoration:none}
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_nor p{
       color:#aaa
+}
+
+.sponsor_lists li.sponsor_lists_gold.sponsor_lists_diamond p{
+	color:#ecb1cd
 }
 
 .sponsor_img{
