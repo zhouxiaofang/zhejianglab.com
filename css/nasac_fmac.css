@@ -425,8 +425,8 @@ a:visited{text-decoration:none}
 }
 
 .cover{
-	width:150px;
-	height:151px;
+	width:160px;
+	height:161px;
 	background-image:url(../images/photo/img_cover.png);
 	position:absolute;
 	z-index:10;
@@ -435,8 +435,8 @@ a:visited{text-decoration:none}
 }
 
 .photo{
-	width:150px;
-	height:151px;
+	width:160px;
+	height:161px;
 	margin:0 auto
 }
 
