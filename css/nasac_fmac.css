@@ -283,7 +283,8 @@ a:visited{text-decoration:none}
 }
 
 .img_r{
-	background-image:url(../images/img_right.png)
+	background-image:url(../images/img_right.png);
+	margin-top: 2px;
 }
 
 .introduction_detail{
