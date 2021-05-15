@@ -589,11 +589,14 @@ a:visited{text-decoration:none}
 }
 
 .sponsor2{
-	background-image:url(../images/sponsor/2.png)
+	background-image:url(../images/sponsor/2.png);
+	width: 220px;
 }
 
 .sponsor3{
-	background-image:url(../images/sponsor/3.png)
+	background-image:url(../images/sponsor/3.png);
+	width: 220px;
+	margin-left: 30px;
 }
 
 .sponsor4{
