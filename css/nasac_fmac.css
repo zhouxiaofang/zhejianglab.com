@@ -1018,6 +1018,9 @@ a:visited{text-decoration:none}
 	margin-bottom:30px
 }
 
+.img_vsb_content{
+	float: left;
+}
 
 .title_list{
 	width:100%
