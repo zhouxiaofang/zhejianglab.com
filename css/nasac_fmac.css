@@ -376,6 +376,7 @@ a:visited{text-decoration:none}
 	top:0;
 	background-color:#24a057;
 	background-color:rgba(34, 179, 77, 0.3);
+	margin-left: 38%;
 }
 
 .link_btn a.btn_l:hover{
