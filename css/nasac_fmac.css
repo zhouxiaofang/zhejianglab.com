@@ -544,12 +544,12 @@ a:visited{text-decoration:none}
        position:relative;
        width:90%;
        height:2px;
-       background-color:#d6c75a;
+       background-color:#DAA520;
        margin:-10px auto 0;
 }
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_nor{
-      background-color:#aaa;
+      background-color:#FFD700;
 }
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_diamond{
@@ -567,12 +567,13 @@ a:visited{text-decoration:none}
       font-size:16px;
       font-weight:bold;
       text-align:center;
-      color:#d6c75a;
+      /* color:#d6c75a; */
+	  color:#DAA520;
       background-color:#fff
 }
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_nor p{
-      color:#aaa
+      color:#FFD700
 }
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_diamond p{
