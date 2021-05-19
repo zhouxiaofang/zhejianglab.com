@@ -48,7 +48,14 @@
  width:100%;
  max-width:100%
 }
+
+.content_detail_biao{
+	width:100%;
+ 	max-width:100%
 }
+}
+
+
 
 @media screen and (max-width: 997px){
 .sponsorblank{
@@ -98,6 +105,11 @@
 .content_detail{
  width:100%;
  max-width:100%
+}
+
+.content_detail_biao{
+	width:100%;
+ 	max-width:100%
 }
 }
 
