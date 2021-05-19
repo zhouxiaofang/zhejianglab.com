@@ -364,13 +364,14 @@ a:visited{text-decoration:none}
 	max-width:400px;
 	/* max-width:180px; */
 	height:36px;
-	border:2px solid #fff;
+	/* border:2px solid #fff; */
+	border:2px solid rgb(0, 0, 0);
 	border-radius:20px;
 	text-align:center;
 	letter-spacing:2px;
 	font-size:18px;
 	font-weight:bold;
-	color:#fff;
+	color:rgb(0, 0, 0);
 	line-height:36px;
 	position:absolute;
 	transition: all 0.3s;
