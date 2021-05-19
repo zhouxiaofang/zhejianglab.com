@@ -977,14 +977,15 @@ a:visited{text-decoration:none}
 
 .content_detail{
 	max-width:82.45614035%;
-	width:940px;
+	/* width:940px; */
+	width:1080px;
 	float:right;
 	position:relative
 }
 
 .content_detail_biao{
 	max-width:82.45614035%;
-	width:1040px;
+	width:1080px;
 	float:right;
 	position:relative
 }
