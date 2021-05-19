@@ -352,6 +352,45 @@ a:visited{text-decoration:none}
 	margin:34px auto 50px
 }
 
+.contnet_link_btn{
+	margin: 0 auto;
+	width:60%;
+	position:relative;
+	height:40px
+}
+
+.contnet_link_btn a{
+	width: 50%;
+	max-width: 380px;
+	height: 56px;
+	border: 2px solid #ffffff;
+	border-radius: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+	color: #ffffff;
+	line-height: 56px;
+	position:absolute;
+	transition: all 0.3s;
+	-moz-transition:all 0.3s; /* Firefox 4 */
+	-webkit-transition:all 0.3s; /* Safari and Chrome */
+	-o-transition:all 0.3s; /* Opera */
+}
+
+.contnet_link_btn a.btn_l:hover{
+	background:#fff;
+	color:#24a057;
+	font-size:20px
+}
+
+.contnet_link_btn a.btn_r:hover{
+	background:#fff;
+	color:#24a057;
+	font-size:20px
+}
+
+
 .link_btn{
 	margin: 0 auto;
 	width:60%;
@@ -380,24 +419,7 @@ a:visited{text-decoration:none}
 	-o-transition:all 0.3s; /* Opera */	
 }
 
-.contnet_link_btn{
-	width: 50%;
-	max-width: 380px;
-	height: 56px;
-	border: 2px solid #ffffff;
-	border-radius: 60px;
-    text-align: center;
-    letter-spacing: 2px;
-    font-size: 18px;
-    font-weight: bold;
-	color: #ffffff;
-	line-height: 56px;
-	position:absolute;
-	transition: all 0.3s;
-	-moz-transition:all 0.3s; /* Firefox 4 */
-	-webkit-transition:all 0.3s; /* Safari and Chrome */
-	-o-transition:all 0.3s; /* Opera */
-}
+
 
 .btn_l{
 	left: 0;
