@@ -411,7 +411,8 @@ a:visited{text-decoration:none}
 
 /*------------------------------------------------------嘉宾开始------------------------------------------------------------------*/
 .Guests{
-	margin-top:40px
+	margin-top:40px;
+	background:#13b51c url(../images/top_banner.jpg) center no-repeat ;
 }
 
 .Guests_list{
