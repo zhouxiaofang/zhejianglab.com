@@ -287,7 +287,9 @@ top:0
 	color:#24af63;
 	font-weight:bold;
 	letter-spacing:2px;
-	left:0
+	margin-left:10%;
+	margin-top:10%;
+	/* left:0 */
 }
 
 .day i.number{
