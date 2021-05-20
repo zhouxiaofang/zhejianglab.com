@@ -7,6 +7,10 @@
     width: 99%;
 }
 
+.pos_ab_index{
+	left:1%
+}
+
 .pos_ab{
 	left:1%
 }
@@ -68,6 +72,10 @@
     width: 99%;
 }
 
+.pos_ab_index{
+	left:1%
+}
+
 .pos_ab{
 	left:1%
 }
@@ -118,6 +126,10 @@
     width: 97%;
 }
 
+.pos_ab_index{
+	margin-left:-48.5%;	
+}
+
 .pos_ab{
 	margin-left:-48.5%;	
 }
@@ -140,6 +152,10 @@
 @media only screen and (min-width: 1280px){
 .middle{
     width: 1280px;
+}
+
+.pos_ab_index{
+	margin-left:-570px;	
 }
 
 .pos_ab{
