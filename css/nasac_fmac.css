@@ -135,9 +135,13 @@ a:visited{text-decoration:none}
 }
 		
 /*------------------------------------------------------导航栏结束-------------------------------------------------------------------*/
+.banner_index {
+	height: 501px;
+}
 .scroll-container {
 	width: 100%;
-	height: 601px;
+	/*height: 601px;*/
+	height: 501px;
 }
 
 .scroll {
@@ -226,7 +230,8 @@ margin-top:11%;
 
 .title_index3 p{
 font-size: 18px;
-color: #150072;
+/*color: #150072;*/
+color: #fbff00;
 font-weight: bold;
 text-align: center;
 }
