@@ -756,7 +756,8 @@ top:0
 }
 
 .sponsor1{
-	background-image:url(../images/sponsor/1.jpg)
+	background-image:url(../images/sponsor/1.jpg);
+	margin-left: 30px;
 }
 
 .sponsor2{
@@ -777,7 +778,9 @@ top:0
 }
 
 .sponsor5{
-	background-image:url(../images/sponsor/5.png)
+	background-image:url(../images/sponsor/5.png);
+	height: 66px;
+	margin-right: 30px;
 }
 
 .sponsor6{
