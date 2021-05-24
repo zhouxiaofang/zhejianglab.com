@@ -806,7 +806,9 @@ top:0
 }
 
 .ccflogo5{
-	background-image:url(../images/zheda_logo.png)
+	background-image:url(../images/zheda_logo.png);
+	width:318px;
+	height:180px
 }
 
 .sponsor1{
