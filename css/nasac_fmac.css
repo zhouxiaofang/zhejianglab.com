@@ -25,7 +25,7 @@ a:visited{text-decoration:none}
 .logo{
 	width:189px;
 	height:39px;
-	/* background-image:url(../images/logo.png); */
+	background-image:url(../images/logo.png);
 	position:absolute;
 	top:30px;
 	left:-1px
@@ -808,7 +808,7 @@ top:0
 .ccflogo5{
 	background-image:url(../images/zheda_logo.png);
 	width:318px;
-	height:180px
+	height:180px;
 }
 
 .sponsor1{
