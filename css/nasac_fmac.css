@@ -784,8 +784,13 @@ top:0
 	height:100px
 }
 
+.logo_img{
+	width:615px;
+	height:100px
+}
+
 .ccflogo1{
-	background-image:url(../images/sponsor/ccf_logo.png)
+	background-image:url(../images/ccf_logo.png)
 }
 
 .ccflogo2{
