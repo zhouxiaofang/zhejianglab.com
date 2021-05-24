@@ -728,7 +728,11 @@ top:0
 }
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_nor{
-      background-color:#FFD700;
+	background-color:#FFD700;
+}
+
+.sponsor_lists li.sponsor_lists_ccf.sponsor_lists_ccf_nor{
+      background-color:#22e23a;
 }
 
 .sponsor_lists li.sponsor_lists_gold.sponsor_lists_diamond{
