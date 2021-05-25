@@ -474,7 +474,7 @@ top:0
 	margin: 0 auto;
 	width:60%;
 	position:relative;
-	height:45px;
+	height:50px;
 	margin-top: 20px;
 }
 
@@ -1319,6 +1319,7 @@ top:0
 
 ul.chengban a {
     float: left;
+	color: #0000ee
 }
 
 .chengban li{
