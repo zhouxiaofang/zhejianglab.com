@@ -941,7 +941,7 @@ top:0
 
 .footer_info   li.info_title {
 	color:#24a056;
-	text-shadow:1px 1px 0 #24a056;
+	text-shadow:1px 1px 0 #000000;
 	font-weight:bold;
 	margin-bottom:0px;
 	line-height:16px;
