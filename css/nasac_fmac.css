@@ -23,12 +23,12 @@ a:visited{text-decoration:none}
 }
 
 .logo{
-	width:189px;
-	height:39px;
-	/* background-image:url(../images/logo.png); */
-	position:absolute;
-	top:30px;
-	left:-1px
+	width: 220px;
+    height: 99px;
+    /* background-image: url(../images/logo.png); */
+    position: absolute;
+    top: 30px;
+    left: 150px;
 }
 /*------------------------------------------------------导航栏开始-------------------------------------------------------------------*/
 .navigation{
@@ -907,6 +907,18 @@ top:0
 	line-height:18px;
 	margin-right:10px;
         letter-spacing:2px
+}
+
+.title_toper i {
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(30 175 48);
+    font-size: 40px;
+    text-shadow: 1px 1px 0 #5e50bd;
+    vertical-align: bottom;
+    line-height: 18px;
+    margin-right: 10px;
+    letter-spacing: 2px;
 }
 
 .hr{
