@@ -914,7 +914,7 @@ top:0
     font-weight: bold;
     color: rgb(30 175 48);
     font-size: 48px;
-    text-shadow: 1px 1px 0 #5e50bd;
+    /* text-shadow: 1px 1px 0 #5e50bd; */
     vertical-align: bottom;
     line-height: 18px;
     margin-right: 10px;
