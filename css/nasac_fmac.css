@@ -467,7 +467,8 @@ top:0
 	width:80%;
 	font-size:14px;
 	line-height:28px;
-	margin:34px auto 50px
+	margin:34px auto 50px;
+	color:#444
 }
 
 .contnet_link_btn{
