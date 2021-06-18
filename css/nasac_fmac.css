@@ -857,7 +857,10 @@ top:0
 }
 
 .sponsor7{
-	background-image:url(../images/sponsor/xilinx.png)
+	background-image:url(../images/sponsor/xilinx.png);
+	height: 100px;
+	width: 492px;
+	margin-right: 60px;
 }
 
 .sponsor8{
