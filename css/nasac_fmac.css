@@ -1282,6 +1282,12 @@ top:0
 	margin-bottom:30px
 }
 
+.zhuceccf a {
+	text-decoration: none;
+    /* display: block; */
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+}
 
 .title_list{
 	width:100%
