@@ -853,12 +853,14 @@ top:0
 }
 
 .sponsor6{
-	background-image:url(../images/sponsor/longxin.png)
+	background-image:url(../images/sponsor/longxin.png);
+	height: 66px;
+	width: 367px;
 }
 
 .sponsor7{
 	background-image:url(../images/sponsor/xilinx.png);
-	height: 100px;
+	height: 66px;
 	width: 492px;
 	margin-right: 60px;
 }
