@@ -839,39 +839,42 @@ top:0
 
 .sponsor2{
 	background-image:url(../images/sponsor/2.png);
-	width: 220px;
+	width: 320px;
+	height: 100px;
 }
 
 .sponsor3{
 	background-image:url(../images/sponsor/3.png);
-	width: 220px;
+	width: 320px;
+	height: 100px;
 	margin-left: 60px;
 }
 
 .sponsor4{
 	background-image:url(../images/sponsor/4.jpg);
-	width: 451px;
+	width: 320px;
+	height: 100px;
 	margin-left: 60px;
 }
 
 .sponsor5{
 	background-image:url(../images/sponsor/5.png);
-	height: 66px;
-	width: 380px;
+	width: 320px;
+	height: 100px;
 	margin-right: 60px;
 }
 
 .sponsor6{
 	background-image:url(../images/sponsor/longxin.png);
-	height: 66px;
-	width: 242px;
+	width: 320px;
+	height: 100px;
 	margin-right: 60px;
 }
 
 .sponsor7{
 	background-image:url(../images/sponsor/xilinx.png);
-	height: 66px;
-	width: 324px;
+	width: 320px;
+	height: 100px;
 	
 }
 
