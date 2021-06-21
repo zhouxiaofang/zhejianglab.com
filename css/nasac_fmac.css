@@ -467,7 +467,7 @@ top:0
 	width:80%;
 	font-size:14px;
 	line-height:28px;
-	margin:34px auto 50px;
+	margin:10px auto 50px;
 	color:#444
 }
 
@@ -508,6 +508,15 @@ top:0
 	background:#fff;
 	color:#24a057;
 	font-size:20px
+}
+
+.banner_area{
+	display: block;
+    height: 400px;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto 2px;
 }
 
 
