@@ -815,7 +815,7 @@ top:0
 	background-image:url(../images/CCF_cunchu.png);
 	width: 320px;
 	height: 100px;
-	margin-left: 60px;
+	margin-left: 70px;
 }
 
 .ccflogo4{
@@ -832,7 +832,7 @@ top:0
 	background-image:url(../images/kongjianlab.png);
 	width: 320px;
 	height: 100px;
-	margin-left: 60px;
+	margin-left: 70px;
 }
 
 .sponsor1{
@@ -870,13 +870,14 @@ top:0
 	background-image:url(../images/sponsor/longxin.png);
 	width: 320px;
 	height: 100px;
-	margin-right: 60px;
+	
 }
 
 .sponsor7{
 	background-image:url(../images/sponsor/xilinx.png);
 	width: 320px;
 	height: 100px;
+	margin-right: 60px;
 	
 }
 
