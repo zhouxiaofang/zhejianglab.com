@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>APPT-CCFSys2021 计算机系统大会</title><META Name="keywords" Content="CCFSys2021 计算机系统大会,论坛" />
+<title>APPT-CCF Sys 2021 计算机系统大会</title><META Name="keywords" Content="CCF Sys 2021 计算机系统大会,论坛" />
 <META Name="description" Content="APPT" />
 
 <link rel="stylesheet" href="../../css/phone_nav.css">
@@ -28,7 +28,7 @@
 <!-----------------------------------------------------导航栏开始-------------------------------------------------------------------->
 <div class="top">
     <div class="middle">
-        <a class="logo"><p class="title_toper"><i>CCFSys2021</i></p></a>
+        <a class="logo"><p class="title_toper"><i>CCF Sys 2021</i></p></a>
         <ul class="navigation">
             <li>
                 <a href="../../lxwm.htm" target="">
@@ -287,7 +287,7 @@
 
 <p style="margin-bottom:0;text-align:justify;text-justify: inter-ideograph;line-height:150%"><strong><span lang="EN-US" style="font-family:'times new roman',serif;color:#001F5F">报告2：</span></strong></p>
 <p style="text-align: center"><img src="../../images/photo/licheng.jpg" alt="嘉宾图片"></p>
-<p style="line-height:150%"><strong><span style="font-size:17px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">嘉宾简介：</span></strong><span style="font-size:16px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">李诚， 2016年获得德国马普学会软件系统所(MPI-SWS)博士学位，现为中国科学技术大学计算机科学与技术学院/国家高性能计算中心(合肥)特任研究员，博士生导师。一直从事分布式计算、一致性模型、系统性能优化、容灾容错等方面的基础理论和系统构建的研究工作，其成果发表于FAST，OSDI，USENIX ATC，VLDB，EuroSys，SOCC，TPDS等系统领域的知名国际会议或期刊上。现担任CCF技术动态编委和FCS期刊青年AE。2019年入选ACM FCA成员（全球36人，中国唯一入选者）。曾担任ACM TURC 2018 SIGOPS/第十四届 CCFSys程序委员会共同主席、SOSP 2017 Poster Session程序委员会共同主席，长期参与SOSP、DSN、ICDCS、SRDS等系统领域著名国际会议的程序委员会。</span></p>
+<p style="line-height:150%"><strong><span style="font-size:17px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">嘉宾简介：</span></strong><span style="font-size:16px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">李诚， 2016年获得德国马普学会软件系统所(MPI-SWS)博士学位，现为中国科学技术大学计算机科学与技术学院/国家高性能计算中心(合肥)特任研究员，博士生导师。一直从事分布式计算、一致性模型、系统性能优化、容灾容错等方面的基础理论和系统构建的研究工作，其成果发表于FAST，OSDI，USENIX ATC，VLDB，EuroSys，SOCC，TPDS等系统领域的知名国际会议或期刊上。现担任CCF技术动态编委和FCS期刊青年AE。2019年入选ACM FCA成员（全球36人，中国唯一入选者）。曾担任ACM TURC 2018 SIGOPS/第十四届 CCF Sys程序委员会共同主席、SOSP 2017 Poster Session程序委员会共同主席，长期参与SOSP、DSN、ICDCS、SRDS等系统领域著名国际会议的程序委员会。</span></p>
 <p style="line-height:150%"><strong><span style="font-size:17px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">报告题目：NVMe SSD驱动的新型KV存储系统研究</span></strong></p>
 <p style="line-height:150%"><strong><span style="font-size:17px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">报告摘要：</span></strong><span style="font-size:17px;line-height:150%;font-family:方正兰亭刊黑_gbk;color:#001F5F">低延迟高带宽商用NVMe SSD的出现和普及推动了新型键值数据库(KV store)的系统变革。然而，采用全新的硬件友好的数据布局或者将整个数据库全部扩展到SSD上面临着生态重建、数据迁移、投资增加等挑战。基于混合存储介质的健值存储系统SpanDB (发表在FAST 2021)由卡塔尔计算研究所与中国科大ADSL实验室联合研发,充分挖掘NVMe SSD+传统磁盘组合方案的极致性能，通过对RocksDB软件栈的适配性修改，在性能和经济效益之间实现最佳平衡。 SpanDB将日志（WAL）和LSM树的顶层数据放到容量小但速度快的NVMe SSD上，而庞大的LSM树底层数据保留在便宜且容量大的存储设备上（如SATA SSD/HDD等）。SpanDB设计了基于SPDK的高并发logging机制，大幅度提升了WAL写入带宽；增加了异步请求处理机制以减轻线程间同步开销、提高了轮询I/O效率；实现了前后台线程协同、动态搬层思想，充分利用了两种介质的带宽资源。实验表明，SpanDB将RocksDB的吞吐量提高了8.8倍，并同时将其延迟降低了9.5-58.3％。与完全采用高端SSD的系统KVell相比，SpanDB以更便宜的存储配置实现了96-140％的吞吐量，且延迟降低了2.3-21.6倍。</span></p>
 <p style="text-indent:28px"><br></p>
@@ -338,7 +338,7 @@
 
 <div class="footer">
     <div class="middle">
-        <p class="title_footer"><i>CCFSys2021 </i><br class="switch" /> /   2021年CCF计算机系统大会
+        <p class="title_footer"><i>CCF Sys 2021 </i><br class="switch" /> /   2021年CCF计算机系统大会
  </p>
         <div class="hr"><div class="purple"></div></div>
         <ul class="footer_info">
@@ -367,13 +367,13 @@
         <div class="contack">
             <div class="weixin"></div>
             <p class="contack_title">会务相关</p>
-            <p class="contack_info">CCFSys2021会议群 </p>
+            <p class="contack_info">CCF Sys 2021会议群 </p>
             <p class="contack_info" style="margin-top:10px"> - 之江实验室</p>
         </div>
         <div class="clear"></div>
     </div>
     <div class="copyright">
-        2021 &copy; CCFSys会务组
+        2021 &copy; CCF Sys会务组
     </div>
 </div>
 
