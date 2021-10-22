@@ -706,6 +706,13 @@ top:0
         padding-top:40px;
 }
 
+.sponsor_lists_add{
+	/* margin:42px auto 0; */
+	text-align:center;
+        position:relative;
+        padding-top:40px;
+}
+
 .sponsor_lists2{
         margin:0 auto;
         padding:0;
@@ -848,14 +855,14 @@ top:0
 	background-image:url(../images/sponsor/3.png);
 	width: 320px;
 	height: 100px;
-	margin-left: 60px;
+	/* margin-left: 60px; */
 }
 
 .sponsor4{
 	background-image:url(../images/sponsor/4.jpg);
 	width: 320px;
 	height: 100px;
-	margin-left: 60px;
+	/* margin-left: 60px; */
 }
 
 .sponsor5{
