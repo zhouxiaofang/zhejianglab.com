@@ -725,6 +725,13 @@ top:0
 	margin-top:26px
 }
 
+.sponsor_lists_add li{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	margin-top:26px
+}
+
 .sponsor_lists li.sponsor_lists_ccf{
 	display:block;
 	position:relative;
