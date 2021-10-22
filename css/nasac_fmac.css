@@ -881,7 +881,10 @@ top:0
 }
 
 .sponsor8{
-        background-image:url(../images/sponsor/8.jpg)
+    background-image:url(../images/sponsor/xinhuasan.jpg);
+	width: 320px;
+	height: 100px;
+	margin-right: 60px;
 }
 
 .sponsor9{
